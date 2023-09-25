@@ -9,6 +9,7 @@
 
 - Utilização do plugin "@rocketseat/eslint-config" em conjunto com o Prettier para formatação de código on save.
 - Utilização do plugin "prettier-plugin-tailwindcss" em conjunto com o Prettier para ordenação de classes do tailwind.
+- O design no Figma pode ser visto em https://www.figma.com/file/Lr5qr0W4w71evxCkw9H26D/Ignite-Tailwind-(Copy)?type=design&node-id=0-1&mode=design&t=w8VMEzXBxl26aAhS-0
 
 ## Extensões VSCode
 
@@ -26,6 +27,8 @@
 (0px, 2px, 4px, ...)
 
 https://medium.com/dex01/the-8-point-grid-e-sua-malemol%C3%AAncia-matem%C3%A1tica-35030ac9f15d
+
+https://tailwindcss.com/docs/customizing-spacing#default-spacing-scale
 
 ## Por que Tailwind?
 
