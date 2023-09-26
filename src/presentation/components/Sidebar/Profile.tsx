@@ -1,4 +1,4 @@
-import { LogOut } from 'lucide-react'
+import { ChevronDown } from 'lucide-react'
 
 export function Profile() {
   return (
@@ -16,7 +16,7 @@ export function Profile() {
         </span>
       </div>
       <button type="button" className="ml-auto rounded-md p-2 hover:bg-zinc-50">
-        <LogOut className="h-5 w-5 text-zinc-500" />
+        <ChevronDown className="h-5 w-5 text-zinc-500" />
       </button>
     </div>
   )

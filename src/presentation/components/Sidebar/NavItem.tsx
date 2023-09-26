@@ -1,4 +1,4 @@
-import { ChevronDown } from 'lucide-react'
+import { ChevronRight } from 'lucide-react'
 import { ElementType } from 'react'
 
 export interface NavItemProps {
@@ -12,11 +12,11 @@ export function NavItem({ title, icon: Icon }: NavItemProps) {
       href=""
       className="group flex items-center gap-3 rounded px-3 py-2 hover:bg-violet-50"
     >
-      <Icon className="h-5 w-5 text-zinc-500" />
+      <Icon className="h-5 w-5 text-zinc-500 group-hover:text-violet-400" />
       <span className="font-medium text-zinc-700 group-hover:text-violet-500 ">
         {title}
       </span>
-      <ChevronDown className="ml-auto h-5 w-5 text-zinc-400 group-hover:text-violet-300" />
+      <ChevronRight className="ml-auto h-5 w-5 text-zinc-400 group-hover:text-violet-400" />
     </a>
   )
 }
