@@ -1,27 +1,23 @@
+import { Search } from 'lucide-react'
 import { ComponentProps } from 'react'
 
-/* Pattern de Composição */
-
-/* Prefix  */
 type InputPrefixProps = ComponentProps<'div'>
 
 function InputPrefix(props: InputPrefixProps) {
   return <div {...props} />
 }
 
-/* Control */
 type InputControlProps = ComponentProps<'input'>
 
 function InputControl(props: InputControlProps) {
   return (
     <input
-      className="mx-1 flex-1 border-0 bg-transparent p-0 text-zinc-900 placeholder-zinc-600"
+      className="w-full border-0 bg-transparent text-zinc-900 placeholder-zinc-600 focus:outline-none"
       {...props}
     />
   )
 }
 
-/* Root */
 type InputRootProps = ComponentProps<'div'>
 
 function InputRoot(props: InputRootProps) {
