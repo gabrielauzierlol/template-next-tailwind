@@ -14,6 +14,7 @@
 ## Dicas
 
 - Utilize https://transform.tools/ para converter svgs em componentes React
+- Alguns componentes podem ser melhor implementados utilizando o Pattern de Composição. Vide https://www.developerway.com/posts/components-composition-how-to-get-it-right, https://www.youtube.com/watch?v=oPOKpSFqy-I&ab_channel=Rocketseat
 
 ## Extensões VSCode
 
