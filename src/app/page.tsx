@@ -1,6 +1,6 @@
 import { SettingsTabs } from '@/presentation/components/SettingsTabs'
 import { FileInput } from '@/presentation/components/Form/FileInput'
-import { Input } from '@/presentation/components/Input'
+import { Input } from '@/presentation/components/Form/Input'
 import { Mail } from 'lucide-react'
 import { Select } from '@/presentation/components/Form/Select'
 
