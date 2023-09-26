@@ -11,6 +11,10 @@
 - Utilização do plugin "prettier-plugin-tailwindcss" em conjunto com o Prettier para ordenação de classes do tailwind.
 - O design no Figma pode ser visto em https://www.figma.com/file/Lr5qr0W4w71evxCkw9H26D/Ignite-Tailwind-(Copy)?type=design&node-id=0-1&mode=design&t=w8VMEzXBxl26aAhS-0
 
+## Dicas
+
+- Utilize https://transform.tools/ para converter svgs em componentes React
+
 ## Extensões VSCode
 
 - PostCSS Language Support
