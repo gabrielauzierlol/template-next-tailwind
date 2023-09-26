@@ -1,5 +1,7 @@
+import { FileInput } from '@/presentation/components/Form/FileInput'
 import { Input } from '@/presentation/components/Input'
 import { SettingsTabs } from '@/presentation/components/SettingsTabs'
+import { Mail, UploadCloud, User } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -66,6 +68,9 @@ export default function Home() {
               Email address
             </label>
             <Input.Root>
+              <Input.Prefix>
+                <Mail className="h-5 w-5 text-zinc-600" />
+              </Input.Prefix>
               <Input.Control
                 id="email"
                 type="email"
@@ -85,6 +90,11 @@ export default function Home() {
                 This will be displayed on your profile.
               </span>
             </label>
+            <FileInput.Root className="flex items-start gap-5">
+              <FileInput.ImagePreview />
+              <FileInput.Trigger />
+              <FileInput.Control />
+            </FileInput.Root>
             <div />
           </div>
 
@@ -140,7 +150,10 @@ export default function Home() {
                 Share a few snippets of your work.
               </span>
             </label>
-            <div />
+            <FileInput.Root className="flex items-start gap-5">
+              <FileInput.Trigger />
+              <FileInput.Control multiple />
+            </FileInput.Root>
           </div>
 
           <div className="flex items-center justify-end gap-2 pt-5">
