@@ -1,7 +1,8 @@
+import { SettingsTabs } from '@/presentation/components/SettingsTabs'
 import { FileInput } from '@/presentation/components/Form/FileInput'
 import { Input } from '@/presentation/components/Input'
-import { SettingsTabs } from '@/presentation/components/SettingsTabs'
-import { Mail, UploadCloud, User } from 'lucide-react'
+import { Mail } from 'lucide-react'
+import { Select } from '@/presentation/components/Form/Select'
 
 export default function Home() {
   return (
@@ -116,6 +117,10 @@ export default function Home() {
             >
               Country
             </label>
+            <Select.Root placeholder="Select a country...">
+              <Select.Item value="br" text="Brazil" />
+              <Select.Item value="us" text="United States" />
+            </Select.Root>
           </div>
 
           {/* timezone */}
@@ -126,6 +131,13 @@ export default function Home() {
             >
               Timezone
             </label>
+            <Select.Root placeholder="Select a timezone...">
+              <Select.Item
+                value="utc8"
+                text="Pacific Standard Time (UTC-08:00)"
+              />
+              <Select.Item value="utc3" text="America São Paulo (UTC-03:00)" />
+            </Select.Root>
           </div>
 
           {/* bio */}
