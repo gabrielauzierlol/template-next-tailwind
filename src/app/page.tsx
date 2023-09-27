@@ -3,6 +3,7 @@ import { FileInput } from '@/presentation/components/Form/FileInput'
 import { Input } from '@/presentation/components/Form/Input'
 import { Mail } from 'lucide-react'
 import { Select } from '@/presentation/components/Form/Select'
+import { Textarea } from '@/presentation/components/Form/Textarea'
 
 export default function Home() {
   return (
@@ -148,7 +149,10 @@ export default function Home() {
                 Write a short introduction
               </span>
             </label>
-            <div />
+            <Textarea
+              id="bio"
+              defaultValue="I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI design, brand strategies and marketing."
+            />
           </div>
 
           {/* portifolio */}
