@@ -3,6 +3,7 @@ import { Input } from '@/presentation/components/Form/Input'
 import { Mail } from 'lucide-react'
 import { Select } from '@/presentation/components/Form/Select'
 import { Textarea } from '@/presentation/components/Form/Textarea'
+import { Button } from '@/presentation/components/Button'
 
 export function MyDetails() {
   return (
@@ -15,19 +16,12 @@ export function MyDetails() {
           </span>
         </div>
         <div className="flex items-center gap-2">
-          <button
-            className="rounded-lg border border-zinc-300 px-4 py-2 text-sm font-semibold text-zinc-700 shadow-sm hover:bg-zinc-50"
-            type="button"
-          >
+          <Button variant="outline" type="button">
             Cancel
-          </button>
-          <button
-            className="rounded-lg bg-violet-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-violet-700"
-            type="submit"
-            form="settings"
-          >
+          </Button>
+          <Button type="submit" form="settings">
             Save
-          </button>
+          </Button>
         </div>
       </div>
 
