@@ -1,3 +1,5 @@
+'use client'
+
 import { Logo } from './Logo'
 import {
   Cog,
@@ -28,18 +30,18 @@ export function Sidebar() {
       </Input.Root>
 
       <nav className="space-y-0.5">
-        <NavItem title="Home" icon={Home} />
-        <NavItem title="Dashboard" icon={BarChart} />
-        <NavItem title="Projects" icon={SquareStack} />
-        <NavItem title="Tasks" icon={CheckSquare} />
-        <NavItem title="Reporting" icon={Flag} />
-        <NavItem title="Users" icon={Users} />
+        <NavItem title="Home" icon={Home} href="/" />
+        <NavItem title="Dashboard" icon={BarChart} href="/dashboard" />
+        <NavItem title="Projects" icon={SquareStack} href="/projects" />
+        <NavItem title="Tasks" icon={CheckSquare} href="/tasks" />
+        <NavItem title="Reporting" icon={Flag} href="/reporting" />
+        <NavItem title="Users" icon={Users} href="/users" />
       </nav>
 
       <div className="mt-auto flex flex-col gap-6">
         <nav className="space-y-0.5">
-          <NavItem title="Support" icon={LifeBuoy} />
-          <NavItem title="Settings" icon={Cog} />
+          <NavItem title="Support" icon={LifeBuoy} href="/support" />
+          <NavItem title="Settings" icon={Cog} href="/settings" />
         </nav>
       </div>
 
