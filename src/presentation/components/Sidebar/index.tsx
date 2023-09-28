@@ -3,14 +3,12 @@
 import { Logo } from './Logo'
 import {
   Cog,
-  LifeBuoy,
   Search,
-  BarChart,
   CheckSquare,
   Flag,
   Home,
-  SquareStack,
   Users,
+  MonitorCheck,
 } from 'lucide-react'
 import { NavItem } from './NavItem'
 import { UsedSpaceWidget } from './UsedSpaceWidget'
@@ -31,16 +29,14 @@ export function Sidebar() {
 
       <nav className="space-y-0.5">
         <NavItem title="Home" icon={Home} href="/" />
-        <NavItem title="Dashboard" icon={BarChart} href="/dashboard" />
-        <NavItem title="Projects" icon={SquareStack} href="/projects" />
+        <NavItem title="Clients" icon={Users} href="/clients" />
+        <NavItem title="Automation" icon={MonitorCheck} href="/automation" />
         <NavItem title="Tasks" icon={CheckSquare} href="/tasks" />
-        <NavItem title="Reporting" icon={Flag} href="/reporting" />
-        <NavItem title="Users" icon={Users} href="/users" />
       </nav>
 
       <div className="mt-auto flex flex-col gap-6">
         <nav className="space-y-0.5">
-          <NavItem title="Support" icon={LifeBuoy} href="/support" />
+          <NavItem title="Support" icon={Flag} href="/support" />
           <NavItem title="Settings" icon={Cog} href="/settings" />
         </nav>
       </div>
