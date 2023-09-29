@@ -7,7 +7,7 @@ import { Button } from '@/presentation/components/Button'
 
 export function MyDetails() {
   return (
-    <div>
+    <div className="h-full w-full">
       <div className="flex items-center justify-between  border-b border-zinc-200 pb-5">
         <div className="space-y-1">
           <h2 className="text-lg font-medium text-zinc-900">Personal info</h2>
