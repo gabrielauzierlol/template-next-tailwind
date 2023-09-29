@@ -4,17 +4,20 @@
 - Next.js
 - Tailwind CSS 
 - Eslint
+- Radix (tabs)
+- Framer Motion
+- Tailwind Variants [https://www.tailwind-variants.org/]
 
 ## Observações
 
 - Utilização do plugin "@rocketseat/eslint-config" em conjunto com o Prettier para formatação de código on save.
 - Utilização do plugin "prettier-plugin-tailwindcss" em conjunto com o Prettier para ordenação de classes do tailwind.
-- O design no Figma pode ser visto em https://www.figma.com/file/Lr5qr0W4w71evxCkw9H26D/Ignite-Tailwind-(Copy)?type=design&node-id=0-1&mode=design&t=w8VMEzXBxl26aAhS-0
-
+- O design no Figma pode ser visto em [https://www.figma.com/file/Lr5qr0W4w71evxCkw9H26D/Ignite-Tailwind-(Copy)?type=design&node-id=0-1&mode=design&t=w8VMEzXBxl26aAhS-0]
+]
 ## Dicas
 
-- Utilize https://transform.tools/ para converter svgs em componentes React
-- Alguns componentes podem ser melhor implementados utilizando o Pattern de Composição. Vide https://www.developerway.com/posts/components-composition-how-to-get-it-right, https://www.youtube.com/watch?v=oPOKpSFqy-I&ab_channel=Rocketseat
+- Utilize [https://transform.tools/] para converter svgs em componentes React
+- Alguns componentes podem ser melhor implementados utilizando o Pattern de Composição. Vide [https://www.developerway.com/posts/components-composition-how-to-get-it-right], [https://www.youtube.com/watch?v=oPOKpSFqy-I&ab_channel=Rocketseat]
 
 ## Extensões VSCode
 
@@ -31,9 +34,9 @@
 * Entre 0px e 16px usar apenas múltiplos de 2px 
 (0px, 2px, 4px, ...)
 
-https://medium.com/dex01/the-8-point-grid-e-sua-malemol%C3%AAncia-matem%C3%A1tica-35030ac9f15d
+[https://medium.com/dex01/the-8-point-grid-e-sua-malemol%C3%AAncia-matem%C3%A1tica-35030ac9f15d]
 
-https://tailwindcss.com/docs/customizing-spacing#default-spacing-scale
+[https://tailwindcss.com/docs/customizing-spacing#default-spacing-scale]
 
 ## Por que Tailwind?
 
