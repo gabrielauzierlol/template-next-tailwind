@@ -25,6 +25,11 @@ const config: Config = {
           25: '#fcfaff',
         },
       },
+
+      boxShadow: {
+        '3xl': '0 0 10px rgba(0, 0, 0, 0.25)',
+        '4xl': '0 0 65px rgba(0, 0, 0, 0.15)',
+      },
     },
   },
   plugins: [],
